@@ -36,7 +36,7 @@
         }
 
         .card-body:hover {
-            border: 5px solid black;
+            border: 3px solid black;
             box-sizing: border-box;
         }
 
@@ -53,7 +53,7 @@
 
         .btn-on:hover {
             color: #E4E4E4;
-            background: #152136!important;
+            background: #0ABAB5!important;
         }
 
         .dark {
@@ -61,15 +61,15 @@
             margin-left: 40%;
             width: 20%;
             height: 60px;
-            border: 1px solid black;
-            background: #091429 !important;
+            border: 1px solid #0ABAB5;
+            background: #0ABAB5!important;
             color: white;
           
         }
 
         .dark:hover {
 
-            background: #152136!important;
+            background:  rgb(31, 214, 208) !important;
             color: white;
         }
 
@@ -89,9 +89,14 @@
         }
 
         #container div {
-            border: 1px solid black;
+            
             height: 50px;
         }
+
+        .div
+       {
+           border: 1px solid black;
+       } 
 
         #container p {
             justify-content: center;
@@ -105,8 +110,8 @@
 
         #ext {
             justify-content: center;
-            border: none;
-            background: #091429 !important;
+            border: 1px solid #0ABAB5;
+            background:#0ABAB5!important;
             color: white;
             width: 100%;
             height: 50px;
@@ -115,7 +120,7 @@
 
         #ext:hover {
 
-            background:  #091429 !important;
+            background:  rgb(31, 214, 208) !important;
 
         }
 
@@ -134,10 +139,10 @@
 
         <div id="container">
 
-            <div>
+            <div class="div">
                 <p class="nav" id="cnc"> x </p>
             </div>
-            <div>
+            <div class="div">
                 <p class="nav" id="cre">Create Estimate</p>
             </div>
             <div>
